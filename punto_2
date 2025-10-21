@@ -1,0 +1,8 @@
+datos = np.array([2,4,4,6,8,8,8,10])
+media = datos.mean()
+mediana = np.median(datos)
+from scipy import stats
+moda = stats.mode(datos, keepdims=True).mode[0]
+print("Media:", media)
+print("Mediana:", mediana)
+print("Moda:", moda)
