@@ -1,0 +1,9 @@
+plt.figure(figsize=(8,5))
+plt.scatter(df["Edad"], df["Nota"], color='green')
+for i, nombre in enumerate(df["Nombre"]):
+    plt.text(df["Edad"][i]+0.1, df["Nota"][i]+0.05, nombre)
+plt.title("Relación Edad vs Nota")
+plt.xlabel("Edad")
+plt.ylabel("Nota")
+plt.grid(True, linestyle='--', alpha=0.5)
+plt.show()
