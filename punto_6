@@ -1,0 +1,2 @@
+df_filtrado = df[df["Nota"] >= 4.0]
+print(df_filtrado)
