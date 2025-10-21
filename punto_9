@@ -1,0 +1,3 @@
+df["Género"] = ["F", "M", "F", "M", "F"]
+promedio_por_genero = df.groupby("Género")["Nota"].mean()
+print(promedio_por_genero)
