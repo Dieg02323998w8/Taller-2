@@ -1,0 +1,4 @@
+varianza = datos.var(ddof=0)
+desviacion = datos.std(ddof=0)
+print("Varianza:", varianza)
+print("Desviación estándar:", desviacion)
