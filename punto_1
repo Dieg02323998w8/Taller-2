@@ -1,0 +1,4 @@
+import numpy as np
+arr = np.arange(1, 1001)
+suma_total = arr.sum()
+print("Suma:", suma_total)
