@@ -1,0 +1,8 @@
+media_notas = df["Nota"].mean()
+min_notas   = df["Nota"].min()
+max_notas   = df["Nota"].max()
+std_notas   = df["Nota"].std(ddof=0)
+print("Media:", media_notas)
+print("Mínima:", min_notas)
+print("Máxima:", max_notas)
+print("Desviación estándar:", std_notas)
