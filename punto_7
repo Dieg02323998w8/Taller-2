@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(8,5))
+plt.bar(df["Nombre"], df["Nota"], color='skyblue')
+plt.title("Notas de los estudiantes")
+plt.xlabel("Nombre")
+plt.ylabel("Nota")
+plt.ylim(0, 6)
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.show()
